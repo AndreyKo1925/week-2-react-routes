@@ -16,7 +16,6 @@ const Home = () => {
             <Route exact path='/dashboard/main' component={()=><Main />} />
             <Route exact path='/dashboard/profile/:username' component={()=><Profile />} />
             <Route exact path='/dashboard/' component={()=><Dashboard />} />
-            {/* <Link to='/dashboard'>Dashboard7</Link> */}
           </Switch>{' '}          
         </div>{' '}
       </div>
