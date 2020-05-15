@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Main = () => {
   return (
     <div className="profile">
-      <div id="title">Mine</div>
+      <div id="title">Main</div>
 
       <div>
         <Link to='/dashboard/profile/743160e0-31a2-4bb8-928a-3da7ee2cb896'>Go To Profile</Link>
