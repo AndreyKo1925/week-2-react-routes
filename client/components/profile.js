@@ -9,7 +9,7 @@ const Main = () => {
       <div id="title">Profile</div>
       <div id="username">{username}</div>
       <div>
-        <Link to='/dashboard/main'>Go To Mine</Link>
+        <Link to='/dashboard/main'>Go To Main</Link>
         <Link to='/dashboard'>Go To Root</Link>
       </div>
     </div>
